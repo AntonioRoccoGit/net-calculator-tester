@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace net_calculator_tester.Classes
 {
-    internal class Calculator
+    public static class Calculator
     {
         public static T NumberSumm<T>(T number1, T number2) where T : INumber<T>
         {
